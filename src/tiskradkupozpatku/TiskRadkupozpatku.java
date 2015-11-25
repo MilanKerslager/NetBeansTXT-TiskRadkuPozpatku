@@ -24,6 +24,7 @@ public class TiskRadkupozpatku {
                 // musíme odřádkovat
                 System.out.println();
             }
+            br.close();
         } catch (FileNotFoundException ex) {
             Logger.getLogger(TiskRadkupozpatku.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
